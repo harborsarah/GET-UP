@@ -1,0 +1,21 @@
+--mode test
+--main_path ../
+--test_image_path ../testing/nuscenes/nuscenes_test_image.txt
+--test_radar_path ../testing/nuscenes/nuscenes_test_radar_new.txt
+--test_ground_truth_path ../testing/nuscenes/nuscenes_test_lidar.txt
+--num_threads 12
+--num_upsample_unit 2
+--lidar_points 128
+--input_height 900
+--input_width 1600
+--radar_input_channels 4
+--radar_gcn_channel_in 6
+--radar_gcn_channel_out 256
+--lidar_channel_out 256
+--encoder_radar resnet18
+--encoder resnet34_bts
+--max_depth 100
+--max_depth_eval 50
+--sparse_conv_type distance_aware_new
+--checkpoint_path ./saved_models/GET_UP/model-1076000-best_mae_1.63245
+--norm_point
