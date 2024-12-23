@@ -13,6 +13,10 @@ To train GET-UP on the nuScenes dataset, you may run:
 ```
 python main.py arguments_train_nuscenes.txt
 ```
+## Download trained model
+You can download the model weights from the link: [model](https://drive.google.com/file/d/1U6QuQ5_XZMPV6E8tGU3GUKR58lHYQdJ_/view?usp=sharing).
+
+After downloading the model, put the file into the folder 'saved_models'. Then it is able to evaluate the model.
 
 ## Evaluating GET-UP
 To evaluate GET-UP on the nuScenes dataset, you may run:
