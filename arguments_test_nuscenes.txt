@@ -17,5 +17,5 @@
 --max_depth 100
 --max_depth_eval 50
 --sparse_conv_type distance_aware_new
---checkpoint_path ./saved_models/GET_UP/model-1076000-best_mae_1.63245
+--checkpoint_path ./saved_models/model
 --norm_point
